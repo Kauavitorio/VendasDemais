@@ -20,6 +20,7 @@ $products = file_exists($productsFile) ? json_decode(file_get_contents($products
         <div class="d-flex justify-content-between align-items-center mb-4">
             <h2>Gerenciar Produtos</h2>
             <div>
+                <a href="links.php" class="btn btn-info me-2">Gerenciar Links</a>
                 <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#productModal" onclick="clearForm()">+ Novo Produto</button>
                 <a href="change_password.php" class="btn btn-secondary ms-2">Alterar Senha</a>
                 <a href="logout.php" class="btn btn-outline-light ms-2">Sair</a>

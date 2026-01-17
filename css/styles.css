@@ -310,40 +310,46 @@ a {
 .pagination {
   display: flex;
   justify-content: center;
-  gap: 0.8rem;
-  margin-top: 4rem;
   align-items: center;
+  gap: 0.5rem;
+  margin-top: 4rem;
+  flex-wrap: nowrap; /* Prevent stacking */
 }
 
 .page-btn {
-  background: var(--btn-bg);
+  background: transparent;
   border: 1px solid var(--border);
-  color: var(--text);
-  width: 44px;
-  height: 44px;
-  border-radius: 12px;
+  color: var(--muted);
+  width: 40px;
+  height: 40px;
+  border-radius: 8px; /* Slightly squarer */
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all 0.2s;
-  font-weight: 600;
+  transition: all 0.2s ease;
+  font-weight: 500;
+  font-size: 0.9rem;
 }
 
 .page-btn:hover:not(:disabled) {
-  background: var(--btn-hover);
-  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text);
+  border-color: var(--text);
 }
 
 .page-btn.active {
   background: var(--text);
   color: var(--bg);
   border-color: var(--text);
+  font-weight: 700;
+  transform: scale(1.05); /* Proper active scale */
 }
 
 .page-btn:disabled {
   opacity: 0.3;
   cursor: not-allowed;
+  border-color: transparent; /* Cleaner disabled state */
 }
 
 /* Footer */

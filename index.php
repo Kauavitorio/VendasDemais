@@ -29,25 +29,37 @@
   </header>
 
   <main id="conteudo" class="container">
+    <?php
+    $linksData = 'data/links.json';
+    $links = file_exists($linksData) ? json_decode(file_get_contents($linksData), true) : [];
+    $socials = array_filter($links, fn($l) => $l['type'] === 'social');
+    $groups = array_filter($links, fn($l) => $l['type'] === 'group');
+    ?>
     <!-- REDES SOCIAIS -->
+    <?php if(!empty($socials)): ?>
     <section class="block">
       <h2 class="kicker">MINHAS REDES</h2>
       <div class="social-actions">
-        <!-- Placeholder links, user will update -->
-        <a class="btn btn-tiktok" href="https://tiktok.com/@seu-perfil" target="_blank" rel="noreferrer">
-          TikTok
+        <?php foreach($socials as $s): ?>
+        <a class="btn <?php echo htmlspecialchars($s['style'] ?? 'btn-secondary'); ?>" href="<?php echo htmlspecialchars($s['link']); ?>" target="_blank" rel="noreferrer">
+          <?php echo htmlspecialchars($s['name']); ?>
         </a>
-        <a class="btn btn-instagram" href="https://instagram.com/seu-perfil" target="_blank" rel="noreferrer">
-          Instagram
-        </a>
+        <?php endforeach; ?>
       </div>
     </section>
+    <?php endif; ?>
 
     <!-- GRUPO DE LINKS -->
+    <?php if(!empty($groups)): ?>
     <section class="block">
       <h2 class="kicker">GRUPO DE LINKS</h2>
-      <a class="btn btn-secondary" href="#" target="_blank" rel="noreferrer">GRUPO DE LINKS #04</a>
+      <?php foreach($groups as $g): ?>
+      <a class="btn <?php echo htmlspecialchars($g['style'] ?? 'btn-secondary'); ?>" href="<?php echo htmlspecialchars($g['link']); ?>" target="_blank" rel="noreferrer">
+        <?php echo htmlspecialchars($g['name']); ?>
+      </a>
+      <?php endforeach; ?>
     </section>
+    <?php endif; ?>
 
     <!-- CATEGORIAS -->
     <section class="block">
@@ -76,7 +88,7 @@
   </main>
 
   <footer class="footer">
-    <small>© <span id="year"></span> — Clone estrutural editável | <a href="/admin/">Admin</a></small>
+    <small>&copy; <span id="year"></span> Vendas Demais — Todos os direitos reservados | <a href="/admin/">Admin</a></small>
   </footer>
 
   <?php

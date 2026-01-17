@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "type": "social",
+        "name": "TikTok",
+        "link": "https:\/\/tiktok.com\/",
+        "style": "btn-tiktok"
+    },
+    {
+        "id": 2,
+        "type": "social",
+        "name": "Instagram",
+        "link": "https:\/\/instagram.com\/",
+        "style": "btn-instagram"
+    }
+]
