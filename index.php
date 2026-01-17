@@ -76,7 +76,7 @@
 
       <div id="grid" class="grid" aria-live="polite"></div>
 
-      <div class="pagination">
+      <div class="custom-pagination">
         <button id="prev" class="page-btn" type="button">◀</button>
         <div id="pages" class="pages"></div>
         <button id="next" class="page-btn" type="button">▶</button>
@@ -85,7 +85,7 @@
   </main>
 
   <footer class="footer">
-    <small>&copy; <span id="year"></span> Vendas Demais — Todos os direitos reservados | <a href="/admin/">Admin</a></small>
+    <small>&copy; <span id="year"></span> Paixao Garage — Todos os direitos reservados | <a href="/admin/">Admin</a></small>
   </footer>
 
   <?php

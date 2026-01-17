@@ -1,8 +1,8 @@
-    <footer id="contato">
+    <footer id="contato" class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 mb-4">
-                    <h4 class="mb-3 text-white">VendasDemais</h4>
+                    <h4 class="mb-3 site-title">Paixao<span>Garage</span></h4>
                     <p class="text-secondary">Especialistas em acessórios automotivos. Enviamos para todo o Brasil com
                         segurança e rapidez.</p>
                 </div>
@@ -16,7 +16,7 @@
                 </div>
             </div>
             <div class="border-top border-secondary pt-3 mt-3 text-center">
-                <p class="text-secondary small mb-0">&copy; 2024 VendasDemais.</p>
+                <p class="text-secondary small mb-0">&copy; 2024 Paixao Garage.</p>
             </div>
         </div>
     </footer>
