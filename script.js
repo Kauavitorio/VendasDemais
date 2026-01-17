@@ -114,8 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="product-name">${p.name}</div>
             <div class="product-desc">${p.description || ''}</div>
             <div class="product-footer">
-                <div class="product-price">${p.price}</div>
-                <div class="product-btn">Ver Detalhes</div>
+                <div class="product-btn">Comprar</div>
             </div>
           </div>
         </a>

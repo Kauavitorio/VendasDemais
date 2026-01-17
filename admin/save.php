@@ -9,7 +9,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $newItem = [
         'id' => $id ?: time(), // Use timestamp as simple ID if new
         'name' => $_POST['name'],
-        'price' => $_POST['price'],
         'image' => $_POST['image'],
         'description' => $_POST['description'],
         'tags' => array_map('trim', explode(',', $_POST['tags'])),

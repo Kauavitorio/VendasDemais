@@ -1,6 +1,8 @@
 <?php
-session_start();
-if (isset($_SESSION['user'])) {
+require_once 'session.php';
+
+// If already logged in, go to index
+if (!empty($_SESSION['user'])) {
     header('Location: index.php');
     exit;
 }
@@ -15,8 +17,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (file_exists($usersFile)) {
         $users = json_decode(file_get_contents($usersFile), true);
         foreach ($users as $user) {
+            // Check credentials
             if ($user['username'] === $username && password_verify($password, $user['password'])) {
+                // SUCCESS
                 $_SESSION['user'] = $user['username'];
+                // Write session close to be sure
+                session_write_close();
                 header('Location: index.php');
                 exit;
             }

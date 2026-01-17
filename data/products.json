@@ -1,137 +1,171 @@
 [
-  {
-    "id": 1,
-    "name": "Central Multimídia 9\" Android",
-    "description": "CarPlay, GPS, Wi-Fi Integrado",
-    "price": "R$ 899,90",
-    "image": "https://images.unsplash.com/photo-1542282088-fe8426682b8f?q=80&w=1000&auto=format&fit=crop",
-    "tags": ["Destaques", "Som e Vídeo"],
-    "link": "#"
-  },
-  {
-    "id": 2,
-    "name": "Kit LED Turbo H4/H7",
-    "description": "20000 Lumens, 6500k",
-    "price": "R$ 149,90",
-    "image": "https://images.unsplash.com/photo-1626245963240-79843a0595d2?q=80&w=1000&auto=format&fit=crop",
-    "tags": ["Destaques", "Iluminação"],
-    "link": "#"
-  },
-  {
-    "id": 3,
-    "name": "Dashcam Full HD",
-    "description": "Segurança total no trânsito",
-    "price": "R$ 259,90",
-    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?q=80&w=1000&auto=format&fit=crop",
-    "tags": ["Destaques", "Acessórios"],
-    "link": "#"
-  },
-  {
-    "id": 4,
-    "name": "Capa de Banco Premium",
-    "description": "Couro sintético universal",
-    "price": "R$ 199,90",
-    "image": "https://images.unsplash.com/photo-1621253018260-8451f28b2be1?q=80&w=1000&auto=format&fit=crop",
-    "tags": ["Destaques", "Estética"],
-    "link": "#"
-  },
-  {
-    "id": 5,
-    "name": "Subwoofer 12\" 500W",
-    "description": "Graves potentes",
-    "price": "R$ 359,90",
-    "image": "https://images.unsplash.com/photo-1615906655593-ad0386982a0f?q=80&w=1000&auto=format&fit=crop",
-    "tags": ["Som e Vídeo"],
-    "link": "#"
-  },
-  {
-    "id": 6,
-    "name": "Kit Alto Falantes 6\"",
-    "description": "Par de Triaxiais",
-    "price": "R$ 129,90",
-    "image": "https://images.unsplash.com/photo-1558403194-611308249627?q=80&w=1000&auto=format&fit=crop",
-    "tags": ["Som e Vídeo"],
-    "link": "#"
-  },
-  {
-    "id": 7,
-    "name": "Rádio MP3 Bluetooth",
-    "description": "USB, SD, Auxiliar",
-    "price": "R$ 89,90",
-    "image": "https://images.unsplash.com/photo-1549488497-2708b49526cc?q=80&w=1000&auto=format&fit=crop",
-    "tags": ["Som e Vídeo"],
-    "link": "#"
-  },
-  {
-    "id": 8,
-    "name": "Módulo Amplificador",
-    "description": "4 Canais 400W RMS",
-    "price": "R$ 299,90",
-    "image": "https://images.unsplash.com/photo-1595206132536-e88939c3239a?q=80&w=1000&auto=format&fit=crop",
-    "tags": ["Som e Vídeo"],
-    "link": "#"
-  },
-  {
-    "id": 9,
-    "name": "Barra de LED Off-Road",
-    "description": "Alta intensidade",
-    "price": "R$ 189,90",
-    "image": "https://images.unsplash.com/photo-1487887235942-610c4397e304?q=80&w=1000&auto=format&fit=crop",
-    "tags": ["Iluminação"],
-    "link": "#"
-  },
-  {
-    "id": 10,
-    "name": "Fita LED Rgb Interna",
-    "description": "Controle pelo celular",
-    "price": "R$ 59,90",
-    "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?q=80&w=1000&auto=format&fit=crop",
-    "tags": ["Iluminação"],
-    "link": "#"
-  },
-  {
-    "id": 11,
-    "name": "Cera de Carnaúba",
-    "description": "Brilho intenso e proteção",
-    "price": "R$ 49,90",
-    "image": "https://images.unsplash.com/photo-1486262715619-01b80250e0dc?q=80&w=1000&auto=format&fit=crop",
-    "tags": ["Estética"],
-    "link": "#"
-  },
-  {
-    "id": 12,
-    "name": "Shampoo Automotivo",
-    "description": "Neutro, 5 Litros",
-    "price": "R$ 69,90",
-    "image": "https://images.unsplash.com/photo-1507136566006-cfc505b114fc?q=80&w=1000&auto=format&fit=crop",
-    "tags": ["Estética"],
-    "link": "#"
-  },
-  {
-    "id": 13,
-    "name": "Pretinho para Pneus",
-    "description": "Longa duração, 500ml",
-    "price": "R$ 29,90",
-    "image": "https://images.unsplash.com/photo-1601362840469-51e4d8d58785?q=80&w=1000&auto=format&fit=crop",
-    "tags": ["Estética"],
-    "link": "#"
-  },
-  {
-    "id": 14,
-    "name": "Jogo de Tapetes PVC",
-    "description": "Universal, 4 Peças",
-    "price": "R$ 79,90",
-    "image": "https://images.unsplash.com/photo-1549921296-3b0f9a35a794?q=80&w=1000&auto=format&fit=crop",
-    "tags": ["Acessórios"],
-    "link": "#"
-  },
-  {
-    "id": 15,
-    "name": "Suporte Celular Magnético",
-    "description": "Fixação na saída de ar",
-    "price": "R$ 39,90",
-    "image": "https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?q=80&w=1000&auto=format&fit=crop",
-    "tags": ["Acessórios"],
-    "link": "#"
-  }
+    {
+        "id": 1,
+        "name": "Central Multim\u00eddia 9\" Android",
+        "price": "R$ 899,90",
+        "image": "https:\/\/http2.mlstatic.com\/D_NQ_NP_2X_978954-MLA99843811079_112025-F.webp",
+        "description": "CarPlay, GPS, Wi-Fi Integrado",
+        "tags": [
+            "Destaques",
+            "Som e V\u00eddeo"
+        ],
+        "link": "https:\/\/www.mercadolivre.com.br\/adaptador-otg-usb-30-fmea-p-usb-tipo-c-macho\/p\/MLB27860473?pdp_filters=item_id%3AMLB6038156070#polycard_client=cart_list&wid=MLB6038156070&sid=cart"
+    },
+    {
+        "id": 2,
+        "name": "Kit LED Turbo H4\/H7",
+        "description": "20000 Lumens, 6500k",
+        "price": "R$ 149,90",
+        "image": "https:\/\/images.unsplash.com\/photo-1626245963240-79843a0595d2?q=80&w=1000&auto=format&fit=crop",
+        "tags": [
+            "Destaques",
+            "Ilumina\u00e7\u00e3o"
+        ],
+        "link": "#"
+    },
+    {
+        "id": 3,
+        "name": "Dashcam Full HD",
+        "description": "Seguran\u00e7a total no tr\u00e2nsito",
+        "price": "R$ 259,90",
+        "image": "https:\/\/images.unsplash.com\/photo-1563720223185-11003d516935?q=80&w=1000&auto=format&fit=crop",
+        "tags": [
+            "Destaques",
+            "Acess\u00f3rios"
+        ],
+        "link": "#"
+    },
+    {
+        "id": 4,
+        "name": "Capa de Banco Premium",
+        "description": "Couro sint\u00e9tico universal",
+        "price": "R$ 199,90",
+        "image": "https:\/\/images.unsplash.com\/photo-1621253018260-8451f28b2be1?q=80&w=1000&auto=format&fit=crop",
+        "tags": [
+            "Destaques",
+            "Est\u00e9tica"
+        ],
+        "link": "#"
+    },
+    {
+        "id": 5,
+        "name": "Subwoofer 12\" 500W",
+        "description": "Graves potentes",
+        "price": "R$ 359,90",
+        "image": "https:\/\/images.unsplash.com\/photo-1615906655593-ad0386982a0f?q=80&w=1000&auto=format&fit=crop",
+        "tags": [
+            "Som e V\u00eddeo"
+        ],
+        "link": "#"
+    },
+    {
+        "id": 6,
+        "name": "Kit Alto Falantes 6\"",
+        "description": "Par de Triaxiais",
+        "price": "R$ 129,90",
+        "image": "https:\/\/images.unsplash.com\/photo-1558403194-611308249627?q=80&w=1000&auto=format&fit=crop",
+        "tags": [
+            "Som e V\u00eddeo"
+        ],
+        "link": "#"
+    },
+    {
+        "id": 7,
+        "name": "R\u00e1dio MP3 Bluetooth",
+        "description": "USB, SD, Auxiliar",
+        "price": "R$ 89,90",
+        "image": "https:\/\/images.unsplash.com\/photo-1549488497-2708b49526cc?q=80&w=1000&auto=format&fit=crop",
+        "tags": [
+            "Som e V\u00eddeo"
+        ],
+        "link": "#"
+    },
+    {
+        "id": 8,
+        "name": "M\u00f3dulo Amplificador",
+        "description": "4 Canais 400W RMS",
+        "price": "R$ 299,90",
+        "image": "https:\/\/images.unsplash.com\/photo-1595206132536-e88939c3239a?q=80&w=1000&auto=format&fit=crop",
+        "tags": [
+            "Som e V\u00eddeo"
+        ],
+        "link": "#"
+    },
+    {
+        "id": 9,
+        "name": "Barra de LED Off-Road",
+        "description": "Alta intensidade",
+        "price": "R$ 189,90",
+        "image": "https:\/\/images.unsplash.com\/photo-1487887235942-610c4397e304?q=80&w=1000&auto=format&fit=crop",
+        "tags": [
+            "Ilumina\u00e7\u00e3o"
+        ],
+        "link": "#"
+    },
+    {
+        "id": 10,
+        "name": "Fita LED Rgb Interna",
+        "description": "Controle pelo celular",
+        "price": "R$ 59,90",
+        "image": "https:\/\/images.unsplash.com\/photo-1549399542-7e3f8b79c341?q=80&w=1000&auto=format&fit=crop",
+        "tags": [
+            "Ilumina\u00e7\u00e3o"
+        ],
+        "link": "#"
+    },
+    {
+        "id": 11,
+        "name": "Cera de Carna\u00faba",
+        "description": "Brilho intenso e prote\u00e7\u00e3o",
+        "price": "R$ 49,90",
+        "image": "https:\/\/images.unsplash.com\/photo-1486262715619-01b80250e0dc?q=80&w=1000&auto=format&fit=crop",
+        "tags": [
+            "Est\u00e9tica"
+        ],
+        "link": "#"
+    },
+    {
+        "id": 12,
+        "name": "Shampoo Automotivo",
+        "description": "Neutro, 5 Litros",
+        "price": "R$ 69,90",
+        "image": "https:\/\/images.unsplash.com\/photo-1507136566006-cfc505b114fc?q=80&w=1000&auto=format&fit=crop",
+        "tags": [
+            "Est\u00e9tica"
+        ],
+        "link": "#"
+    },
+    {
+        "id": 13,
+        "name": "Pretinho para Pneus",
+        "description": "Longa dura\u00e7\u00e3o, 500ml",
+        "price": "R$ 29,90",
+        "image": "https:\/\/images.unsplash.com\/photo-1601362840469-51e4d8d58785?q=80&w=1000&auto=format&fit=crop",
+        "tags": [
+            "Est\u00e9tica"
+        ],
+        "link": "#"
+    },
+    {
+        "id": 14,
+        "name": "Jogo de Tapetes PVC",
+        "description": "Universal, 4 Pe\u00e7as",
+        "price": "R$ 79,90",
+        "image": "https:\/\/images.unsplash.com\/photo-1549921296-3b0f9a35a794?q=80&w=1000&auto=format&fit=crop",
+        "tags": [
+            "Acess\u00f3rios"
+        ],
+        "link": "#"
+    },
+    {
+        "id": 15,
+        "name": "Suporte Celular Magn\u00e9tico",
+        "description": "Fixa\u00e7\u00e3o na sa\u00edda de ar",
+        "price": "R$ 39,90",
+        "image": "https:\/\/images.unsplash.com\/photo-1517524008697-84bbe3c3fd98?q=80&w=1000&auto=format&fit=crop",
+        "tags": [
+            "Acess\u00f3rios"
+        ],
+        "link": "#"
+    }
 ]

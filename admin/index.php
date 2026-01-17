@@ -31,7 +31,6 @@ $products = file_exists($productsFile) ? json_decode(file_get_contents($products
                 <tr>
                     <th>Img</th>
                     <th>Nome</th>
-                    <th>Preço</th>
                     <th>Tags</th>
                     <th>Ações</th>
                 </tr>
@@ -41,7 +40,6 @@ $products = file_exists($productsFile) ? json_decode(file_get_contents($products
                 <tr>
                     <td><img src="<?php echo htmlspecialchars($p['image']); ?>" alt="img"></td>
                     <td><?php echo htmlspecialchars($p['name']); ?></td>
-                    <td><?php echo htmlspecialchars($p['price']); ?></td>
                     <td><?php echo implode(', ', $p['tags'] ?? []); ?></td>
                     <td>
                         <button class="btn btn-sm btn-primary" onclick='editProduct(<?php echo json_encode($p); ?>)'>Editar</button>
@@ -68,10 +66,7 @@ $products = file_exists($productsFile) ? json_decode(file_get_contents($products
                             <label>Nome</label>
                             <input type="text" name="name" id="name" class="form-control bg-secondary text-white" required>
                         </div>
-                        <div class="mb-3">
-                            <label>Preço</label>
-                            <input type="text" name="price" id="price" class="form-control bg-secondary text-white" required>
-                        </div>
+                        <!-- Price Removed -->
                         <div class="mb-3">
                             <label>Imagem URL</label>
                             <input type="text" name="image" id="image" class="form-control bg-secondary text-white" required>
@@ -104,7 +99,6 @@ $products = file_exists($productsFile) ? json_decode(file_get_contents($products
         function clearForm() {
             document.getElementById('id').value = '';
             document.getElementById('name').value = '';
-            document.getElementById('price').value = '';
             document.getElementById('image').value = '';
             document.getElementById('description').value = '';
             document.getElementById('tags').value = '';
@@ -114,7 +108,6 @@ $products = file_exists($productsFile) ? json_decode(file_get_contents($products
         function editProduct(p) {
             document.getElementById('id').value = p.id;
             document.getElementById('name').value = p.name;
-            document.getElementById('price').value = p.price;
             document.getElementById('image').value = p.image;
             document.getElementById('description').value = p.description || '';
             document.getElementById('tags').value = (p.tags || []).join(', ');
