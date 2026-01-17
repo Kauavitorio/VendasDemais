@@ -17,10 +17,7 @@
         <img class="brand-img" src="./assets/header-1.png" alt="Imagem do topo 1" onerror="this.style.display='none'">
       </div>
 
-      <nav class="social" aria-label="Redes sociais">
-        <a class="social-link" href="#" target="_blank" rel="noreferrer">Instagram</a>
-        <a class="social-link" href="#" target="_blank" rel="noreferrer">YouTube</a>
-      </nav>
+      <div class="site-title">PAIXÃO GARAGE</div>
 
       <div class="brand">
         <img class="brand-img" src="./assets/header-2.png" alt="Imagem do topo 2" onerror="this.style.display='none'">
